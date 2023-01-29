@@ -1,4 +1,4 @@
-# Trading
+# Trading on FTMO
 
 ## Getting Started
 
@@ -7,16 +7,21 @@
 * [FTMO® - For Serious Traders](https://ftmo.com/en/)
 * [How to setup Free Trial with FTMO - Complete Guide - YouTube](https://www.youtube.com/watch?v=Hqy42ZMpaM0)
 
-### 2. MetaTrader 4
+### 2. MetaTrader 5
 
-* [MetaTrader 4 Platform | MT4 Download | Trade MT4 | OANDA](https://www.oanda.com/sg-en/trading/platforms/metatrader-4/)
-* [Desktop Trading Platform | Forex Desktop Platform | OANDA](https://www.oanda.com/sg-en/trading/platforms/oanda-trade-desktop/)
+* [Download the MetaTrader 5 trading platform for free](https://www.metatrader5.com/en/download)
+
+> ~~Why MT4 => If you want to use mobile, you can choose this~~
+>
+> * [MetaTrader 4 Platform | MT4 Download | Trade MT4 | OANDA](https://www.oanda.com/sg-en/trading/platforms/metatrader-4/)
+> * [Desktop Trading Platform | Forex Desktop Platform | OANDA](https://www.oanda.com/sg-en/trading/platforms/oanda-trade-desktop/)
 
 ### 3. TradingView
 
 ## Concept
 
 * [金融百科 - YouTube](https://www.youtube.com/playlist?list=PLC4igOlk_m2kYEubKnmFwMezfsY-6GBhT)
+
 
 ## Strategy
 
