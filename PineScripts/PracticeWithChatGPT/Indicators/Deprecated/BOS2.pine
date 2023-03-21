@@ -1,0 +1,15 @@
+// @version=5
+indicator(title="Break of structure indicator", shorttitle="BOS", overlay=true)
+
+long_break_out = input.price(title="Long Breakout Price", defval=0.0, confirm=true)
+short_break_out = input.price(title="Short Breakout Price", defval=0.0, confirm=true)
+offset = input.int(title="Offset", defval=5)
+symbol = input.symbol(defval = "", title = "Symbol", confirm = true)
+
+longAlert = long_break_out > 0 and close > long_break_out
+shortAlert = short_break_out > 0 and close < short_break_out
+
+plot(long_break_out > 0 and str.contains(symbol, syminfo.tickerid) ? long_break_out : na, title="Long Breakout Price", color=color.green, offset=offset)
+plot(short_break_out > 0 and str.contains(symbol, syminfo.tickerid) ? short_break_out : na, title="Short Breakout Price", color=color.red, offset=offset)
+
+alertcondition(longAlert or shortAlert, title="BOS Alert!", message="BOS alert for {{ticker}} on price {{close}}")

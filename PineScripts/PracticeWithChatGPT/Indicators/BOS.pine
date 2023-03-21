@@ -1,0 +1,18 @@
+//@version=5
+indicator("Break of Structure", overlay=true)
+
+// Define the input variables
+src = input(close, "Source")
+lookback = input(20, "Lookback")
+
+// Calculate the previous price levels
+prevHigh = ta.highest(src, lookback)
+prevLow = ta.lowest(src, lookback)
+
+// Determine if the current price breaks the previous high or low
+bosUp = src > prevHigh
+bosDown = src < prevLow
+
+// Plot the break of structure levels
+plot(bosUp ? prevHigh : na, color=color.green, style=plot.style_line)
+plot(bosDown ? prevLow : na, color=color.red, style=plot.style_line)
